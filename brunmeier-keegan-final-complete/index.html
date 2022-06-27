@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Keegan Brunmeier - Final Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header role="banner">
+        <a href="#"><img src="img/logo.png" alt="Portland's company logo." width="92" height="25"></a>
+        <nav role="navigation">
+          <label for="nav-checkbox" id="nav-trigger">Menu</label>
+          <input type="checkbox" id="nav-checkbox">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+        <a href="#" id="cart">
+          <img src="img/cart.png" alt="Icon of a shopping cart." width="18" height="17">
+          <span>Cart</span>
+          <span>0</span>
+        </a>
+      </header>
+  
+      <main id="main-content" role="main">
+        <section id="splash">
+          <div>
+            <h1>iPhone 6 32Gb Black</h1>
+            <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <span><a href="#">Buy&nbsp;Now</a></span>
+          </div>
+          <img src="img/iphone.png" alt="An iPhone 6 in black at a slight angle." width="300" height="875">
+        </section>
+
+        <div id="product-wrapper">
+          <section id="filters">
+            <form>
+              <label for="sort">Sort&nbsp;By:</label>
+              <select name="sort" id="sort">
+                <option value="match">Best Match</option>
+                <option value="value">Best Value</option>
+                <option value="new">New Products</option>
+              </select>
+            </form>
+  
+            <form id="keywords-price">
+              <fieldset>
+                <label for="search">Keywords</label>
+                <input type="text" id="search">
+              </fieldset>
+              <fieldset>
+                <label for="price-minimum">Price</label>
+                <input type="text" id="price-minimum" value="10">
+                <label for="price-maximum">-</label>
+                <input type="text" id="price-maximum" value="10000">
+              </fieldset>
+            </form>
+  
+            <form id="ship">
+              <label for="shipping">Ship&nbsp;To:</label>
+              <select name="shipping" id="shipping">
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="aus">AUS</option>
+              </select>
+            </form>
+          </section>
+  
+          <section id="product-grid">
+            <div class="card">
+              <a href="#">
+                <img src="img/product-apple-tc.jpg" alt="Black Apple TV device." width="198" height="198">
+                <h2>Apple TV 32GB</h2>
+                <span>Black</span>
+                <span>$49.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-watch.jpg" alt="New red Pebble Smartwatch." width="141" height="175">
+                <h2>Pebble Time</h2>
+                <span>Red</span>
+                <span>$29.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-usb-hub.jpg" alt="White Zendure 4-port USB hub." width="256" height="209">
+                <h2>Zendure 4-Port USB</h2>
+                <span>White</span>
+                <span>$49.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-scale.jpg" alt="Withings brand 'smart' bathroom scale and body analyzer" width="207" height="130">
+                <h2>Withings Smart Body Analyzer ws-50</h2>
+                <span>Black</span>
+                <span>$39.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-olio.jpg" alt="Olio mobile phone camera lens clip." width="196" height="196">
+                <h2>Olio Clip New</h2>
+                <span>Silver</span>
+                <span>$19.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-fitbit.jpg" alt="Black Fitbit Smartwatch with a smaller and more discrete screen." width="144" height="196">
+                <h2>Fitbit Charge HR</h2>
+                <span>Black</span>
+                <span>$19.99</span>
+              </a>
+            </div>
+            <div id="double-card">
+              <a href="#">
+                <span>$39.99</span>
+                <img src="img/product-charger.jpg" alt="Black JBL Bluetooth speaker now with longer battery life." width="570" height="305">
+                <div>
+                  <h2>JBL Charge 2+</h2>
+                  <span>Black</span>
+                  <div>
+                    <span>16&nbsp;GB</span>
+                    <span>Buy&nbsp;Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product--apple-watch.jpg" alt="Apple Watch Sport, a sportswatch by Apple." width="194" height="194">
+                <h2>Apple Watch Sport</h2>
+                <span>White</span>
+                <span>$49.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-headphones.jpg" alt="Pair of Bose SoundLink Headphones." width="137" height="206">
+                <h2>Bose SoundLink On-Ear Headphones</h2>
+                <span>White</span>
+                <span>$119.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-hifi.jpg" alt="Wireless Sonos Sound System, great for movies at home." width="143" height="189">
+                <h2>Sonos Play-1 Wireless HiFi System</h2>
+                <span>Black</span>
+                <span>$99.99</span>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <img src="img/product-nest.jpg" alt="Nest SmartHome Device, doorbell camera." width="172" height="178">
+                <h2>Nest, 3rd Gen</h2>
+                <span>Black</span>
+                <span>$99.99</span>
+              </a>
+            </div>
+          </section>
+  
+          <section id="page-select">
+            <nav role="navigation">
+              <a href="#">&lt;</a>
+              <ol>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li id="current-page"><a href="#" >4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+              </ol>
+              <a href="#">&gt;</a>
+            </nav>
+          </section>
+  
+          <section id="best-sellers">
+            <h2>Best Sellers</h2>
+            <div>
+              <a href="#">
+                <img src="img/best-seller-beanie.jpg" alt="Our best selling wool beanie hat." width="149" height="146">
+                <h3>Beanie</h3>
+                <span>Green</span>
+                <div>
+                  <s>$39.99</s>
+                  <span>$29.99</span>
+                </div>
+              </a>
+              <a href="#">
+                <img src="img/best-seller-shirt.jpg" alt="Our most popular seafaring themed shirt." width="155" height="156">
+                <h3>T-Shirt With a Print</h3>
+                <span>Dark Blue</span>
+                <div>
+                  <s>$29.99</s>
+                  <span>$19.99</span>
+                </div>
+              </a>
+              <a href="#">
+                <img src="img/best-seller-jacket.jpg" alt="A best selling navy blue warm hooded jacket." width="139" height="171">
+                <h3>Pile-Lined Hooded&nbsp;Jacket</h3>
+                <span>Dark Blue</span>
+                <div>
+                  <s>$49.99</s>
+                  <span>$39.99</span>
+                </div>
+              </a>
+              <a href="#">
+                <img src="img/best-seller-trainers.jpg" alt="Ankle high grey trainers with a touch of leather." width="161" height="92">
+                <h3>Trainers</h3>
+                <span>Space Grey</span>
+                <div>
+                  <s>$39.99</s>
+                  <span>$29.99</span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
+  
+      <section id="customers">
+        <div>
+          <h2>What Our Customers Have to Say</h2>
+          <h3>Couple of Words About This Stories Section</h3>
+          <div>
+            <section>
+              <div>
+                <img src="img/customer-1.png" alt="User Experience Expert, Celia Fields." width="40" height="40">
+                <span>Celia Fields</span>
+                <span><abbr title="User Experience">UX</abbr> Expert</span>
+              </div>
+              <blockquote>This I have produced as a scantling of Jack's great eloquence and the force of his reasoning upon such abstruse matters.</blockquote>
+            </section>
+
+            <section>
+              <div>
+                <img src="img/customer-2.png" alt="Founder, Alexander Lee." width="40" height="40">
+                <span>Alexander Lee</span>
+                <span>Founder</span>
+              </div>
+              <blockquote>Looking cautiously round, to ascertain that they were not overhead, the two hags cowered nearer to the fire, and chuckled heartily.</blockquote>
+            </section>
+
+            <section>
+              <div>
+                <img src="img/customer-3.png" alt="Product Manager, Lenora Sandoval." width="40" height="40">
+                <span>Lenora Sandoval</span>
+                <span>Product Manager</span>
+              </div>
+              <blockquote>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</blockquote>
+            </section>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer role="contentinfo">
+      <div id="footer-wrapper">
+        <div>
+          <a href="#"><img src="img/logo-white.png" alt="Portland's company logo." width="92" height="25"></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <ul>
+            <li><a href="#"><img src="img/twitter.png" alt="Twitter's logo." width="17" height="14"></a></li>
+            <li><a href="#"><img src="img/facebook.png" alt="Facebook's logo." width="9" height="18"></a></li>
+            <li><a href="#"><img src="img/google-plus.png" alt="Google's Google Plus logo." width="24" height="15"></a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
